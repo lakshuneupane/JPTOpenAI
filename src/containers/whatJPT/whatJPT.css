@@ -1,0 +1,105 @@
+.jpt__whatjpt{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-footer);
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.jpt__whatjpt-feature{
+    display: flex;
+}
+
+.jpt__whatjpt-feature .jpt__whatjpt-container{
+    margin: 0;
+}
+
+.jpt__whatjpt-feature .jpt__whatjpt-container-text{
+    max-width: 700px;
+}
+
+.jpt__whatjpt-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.jpt__whatjpt-heading h1{
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    max-width: 510px;
+    font-family: var(--font-family);
+}
+
+.jpt__whatjpt-heading p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.jpt__whatjpt-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+.jpt__whatjpt-container .jpt__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.jpt__whatgjpt-container .jpt__features-container__feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .jpt__whatjpt-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .jpt3__whatjpt-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .jpt__whatjpt-feature .jpt__features-container__feature {
+        flex-direction: column;
+    }
+
+    .jpt__whatjpt-feature .jpt__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .jpt__whatjpt-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .jpt__whatjpt-container .jpt__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
+
